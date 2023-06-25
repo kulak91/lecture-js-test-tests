@@ -1,16 +1,16 @@
 module.exports = {
 	'GREETINGS': 'Hola amigo👋\n\n' +
-		'Я - Binary авто-тест 🤖. Готовий отримати фідбек про свою роботу?\n\n' +
-    'Хочу зазначити, що я оцінюю тільки функціонал, за який ти можеш отримати максимум ${total} балів.\n' +
-		'Код перегляне розробник із байнарі, але тільки за умови, що твоя робота буде бомбезною 💣💥',
-	'GO_THROUGH_THE_LIST': 'Давай пройдемось по пунктах 📔',
-	'RESULT_PERFECT': 'Чудово! Всі тести пройдено 🎉. Так тримати!\n\nТвій поточний бал: ${score}/${total}🦜',
-	'RESULT_GOOD': 'Непогана робота 👍. Але деякий функціонал зламався. Якщо в тебе ще залишилися спроби, то було б добре виправити помилки 🛠️\n\nТвій поточний бал: ${score}/${total}🦜',
-	'RESULT_BAD': 'Можна було б краще 🤷. Якщо в тебе залишились спроби, то виправ помилки. Я вірю в тебе 🙏\n\nТвій поточний бал: ${score}/${total}🦜',
-	'RESULT_WORST': 'Здається суттєва частка функціоналу перестала працювати як треба.\n' +
-		'Проте може буте й таке, що я не зміг отримати доступ до репозиторію. Перевір чи коректно вказаний лінк: https://github.com/[твій нікнейм]/homepage\n' +
-		'Також перевір, чи є публічний доступ до репозиторія.\n' +
-		'Якщо і це не допомогло, то напиши до служби підтримки.',
+		'I\'m a Binary autotest 🤖. Are you ready for the feedback regarding your homework?\n\n' +
+		'Before we start, I must say, that I will evaluate only the functionality for which you can obtain maximum ${total} points.\n' +
+		'The rest of the implementation will be reviewed manually by the Binary Studio Engineer 📜',
+	'GO_THROUGH_THE_LIST': 'Let\'s see what we\'ve got here 📔',
+	'RESULT_PERFECT': 'Nice one! All tests passed 🎉. Good job!\n\nThe score is: ${score}/${total}🦜',
+	'RESULT_GOOD': 'Good work 👍. But, unfortunately, something got messed up. If you have any attempts left - feel free to try fixing the issues. 🛠️\n\nThe score is: ${score}/${total}🦜',
+	'RESULT_BAD': 'Could\'ve been better 🤷. If you have any attempts left - feel free to try fixing the issues. May the force be with you 🙏\n\nThe score is: ${score}/${total}🦜',
+	'RESULT_WORST': 'It seems that most of the original functionality broke completely.\n' +
+		'Also, it maybe the case, that I couldn\'t access your repository, please check if link is correct: https://github.com/[твій нікнейм]/homepage\n' +
+		'In addition, please also verify that your repository is public.\n' +
+		'If you sure that it\'s something wrong on our side - contact our support.',
 
   'UNIT_TESTS': 'Unit tests',
   'UNIT_TEST_1': 'Unit test #1 should be passed',
