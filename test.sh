@@ -44,7 +44,7 @@ git clone "$GITHUB_URL" .
 npm i
 
 #Generate Homework Test Report
-npm run report
+npx react-scripts test --watchAll=false --json > report.json
 
 cd ../
 

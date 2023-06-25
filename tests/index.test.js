@@ -27,6 +27,7 @@ describe('INTEGRATION_TEST', () => {
 
 describe('TOTAL_TESTS_AMOUNT', () => {
   it('HAS_PROPER_AMOUNT_OF_TESTS', () => {
+    expect(report.testResults).not.toHaveLength(0);
     expect(report.testResults[0].assertionResults.length).toBeLessThanOrEqual(12);
   })
 

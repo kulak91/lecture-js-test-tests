@@ -12,7 +12,7 @@ module.exports = {
 		'Також перевір, чи є публічний доступ до репозиторія.\n' +
 		'Якщо і це не допомогло, то напиши до служби підтримки.',
 
-  'UNIT_TEST': 'Unit tests',
+  'UNIT_TESTS': 'Unit tests',
   'UNIT_TEST_1': 'Unit test #1 should be passed',
   'UNIT_TEST_2': 'Unit test #2 should be passed',
   'UNIT_TEST_3': 'Unit test #3 should be passed',
