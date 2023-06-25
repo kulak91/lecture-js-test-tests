@@ -28,12 +28,10 @@ then
    echo 'Repo exists'
 else
    $(. send-error.sh "$HOMETASK_ID" "$TOKEN")
-   return
+   exit 1
 fi
 
 echo "CONTINUE"
-
-
 
 #Clone repo
 mkdir $CHECK_FOLDER

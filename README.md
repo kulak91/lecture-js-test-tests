@@ -4,7 +4,7 @@
 
 ```bash
 # run test
-./test.sh <repo url> <token> <hometask id> <language: ua | en>
+./test.sh <repo url> <token> <language: ua | en>  <hometask id>
 
 # show feedback
 cat ./result.json
