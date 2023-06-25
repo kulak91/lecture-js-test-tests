@@ -1,0 +1,38 @@
+module.exports = {
+
+// 8
+// UNIT_TESTS: {
+//   UNIT_TEST_1: 0.72,
+//   UNIT_TEST_2: 0.72,
+//   UNIT_TEST_3: 0.72,
+//   UNIT_TEST_4: 0.72,
+//   UNIT_TEST_5: 0.72,
+//   UNIT_TEST_6: 0.72,
+//   UNIT_TEST_7: 0.72,
+//   UNIT_TEST_8: 0.72,
+//   UNIT_TEST_9: 0.72,
+//   UNIT_TEST_10: 0.72,
+//   UNIT_TEST_11: 0.8,
+// },
+UNIT_TESTS: {
+  UNIT_TEST_1: 1,
+  UNIT_TEST_2: 1,
+  UNIT_TEST_3: 1,
+  UNIT_TEST_4: 1,
+  UNIT_TEST_5: 1,
+  UNIT_TEST_6: 1,
+  UNIT_TEST_7: 1,
+  UNIT_TEST_8: 1,
+  UNIT_TEST_9: 1,
+  UNIT_TEST_10: 1,
+  UNIT_TEST_11: 2,
+},
+// 1
+INTEGRATION_TEST: {
+  HAS_INTEGRATION_TEST: 2,
+},
+// -2
+TOTAL_TESTS_AMOUNT: {
+  HAS_PROPER_AMOUNT_OF_TESTS: 4,
+},
+};

@@ -1,0 +1,9 @@
+package-lock.json
+report.json
+node_modules
+.vscode
+tmp
+.env
+result.txt
+result.json
+.idea
