@@ -27,8 +27,8 @@ if [ "$REPO_EXISTS" == true ]
 then
    echo 'Repo exists'
 else
-   $(. send-error.sh "$HOMETASK_ID" "$TOKEN")
-   exit 1
+   $(bash  send-error.sh "$HOMETASK_ID" "$TOKEN")
+    exit 1
 fi
 
 echo "CONTINUE"
