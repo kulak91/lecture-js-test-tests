@@ -2,7 +2,7 @@
 
 GITHUB_URL=$1
 TOKEN=$2
-LANG=$3
+LANG=${3:-en}
 HOMETASK_ID=${4:-null}
 
 CHECK_FOLDER="tmp"
