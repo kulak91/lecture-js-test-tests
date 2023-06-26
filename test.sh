@@ -31,24 +31,24 @@ else
     exit 1
 fi
 
-echo "CONTINUE"
-
-#Clone repo
+echo "Cloning user's repo.."
 mkdir $CHECK_FOLDER
-cd ./$CHECK_FOLDER || exit
+cd ./$CHECK_FOLDER
 git clone "$GITHUB_URL" .
 
-#INSTALL DEPENDENCIES FOR HOMETASK
+echo "Installing student's dependencies.."
 npm i
 
-#Generate Homework Test Report
+echo "Generating Homework Test Report.."
 npx react-scripts test --watchAll=false --json > report.json
 
 cd ../
 
-# INSTALL DEPENDENCIES
+echo "Installing own dependencies.."
 npm i
 
-# RUN TESTS
+echo "Writing report.."
 npm run report
+
+echo "Creating feedback.."
 npm run feedback -- "$TOKEN" "$LANG"
